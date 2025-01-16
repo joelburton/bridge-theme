@@ -1,0 +1,12 @@
+[project]
+name = "bridge_theme"
+version = "1.0"
+dependencies = [
+    "sphinx_book_theme",
+]
+
+[tool.setuptools.package-data]
+bridge_theme = ["**"]
+
+[project.entry-points."sphinx.html_themes"]
+bridge_theme = "bridge_theme"

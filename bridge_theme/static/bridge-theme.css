@@ -1,0 +1,33 @@
+@import url("styles/sphinx-book-theme.css");
+
+.page-content ul > li > p {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.body ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-number {
+    color: #68a;
+    font-size: 75%;
+    margin-right: 0.4em;
+}
+
+.section-number::before {
+    content: "§";
+}
+
+.prev-next-area .section-number {
+    display: none;
+}
+
+div.compound p:first-of-type {
+    margin-bottom: 0;
+}
+
+div.compound {
+    margin-bottom: 1em;
+}
