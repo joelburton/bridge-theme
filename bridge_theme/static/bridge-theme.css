@@ -31,3 +31,11 @@ div.compound p:first-of-type {
 div.compound {
     margin-bottom: 1em;
 }
+
+table.table-unstriped tbody tr { background-color: inherit !important; }
+table.table-condense td { padding-top: 0; padding-bottom: 0; }
+
+.discreet {
+    font-size: 80%;
+    color: #666;
+}

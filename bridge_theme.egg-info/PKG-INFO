@@ -1,0 +1,4 @@
+Metadata-Version: 2.2
+Name: bridge_theme
+Version: 1.0
+Requires-Dist: sphinx_book_theme
